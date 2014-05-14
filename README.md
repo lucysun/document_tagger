@@ -18,7 +18,7 @@ The 14 text files are the full texts of classic titles from Project Gutenberg:
 <li>Ulysses</li>
 <li>The Adventures of Tom Sawyer</li>
 <li>Moby Dick</li>
-
+</ol>
 TO USE:
 Download document_tagger as a zip file. From the command line, navigate to the directory where the zip file is saved and enter: "<file name: doc_tagger.py or doc_tagger_final.py> . <keyword 1> <keyword 2>... <keyword n>"
 
