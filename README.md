@@ -20,7 +20,7 @@ The 14 text files are the full texts of classic titles from Project Gutenberg:
 <li>Moby Dick</li>
 </ol>
 TO USE:
-Download document_tagger as a zip file. From the command line, navigate to the directory where the zip file is saved and enter: "<file name: doc_tagger.py or doc_tagger_final.py> . <keyword 1> <keyword 2>... <keyword n>"
+Download document_tagger as a zip file. From the command line, navigate to the directory where the zip file is saved and enter: "(file name: doc_tagger.py or doc_tagger_final.py) . keyword1 keyword 2 ... keyword n"
 
 For example, to search for the keywords "good" and "bad", you would enter from the command line:
 doc_tagger_final.py . good bad
