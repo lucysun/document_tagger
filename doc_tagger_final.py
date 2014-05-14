@@ -57,7 +57,8 @@ def main(directory, kws):
 	kws = sys.argv[2:]
 	print_results(directory, kws)
 
-if __name__ = '__main__'
+if __name__ = '__main__':
+	main()
 			
 			
 			
