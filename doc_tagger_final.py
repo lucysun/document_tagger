@@ -2,13 +2,6 @@ import re
 import os
 import sys
 
-#Create separate functions to handle the following items:
-#Iterating over and opening files
-#Compiling user supplied keywords into  regular expressions
-#Counting keywords in a document
-#Stripping out metadata (author, title, etc.) from Project Gutenberg documents
-#A main() function that calls the other functions, supplying them with the necessary user supplied arguments at run time. 
-
 def make_file_path(directory, fl):
 """Makes a file path given the directory and file name."""
 	return os.path.join(directory, fl)
