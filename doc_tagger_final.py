@@ -28,7 +28,7 @@ def metadata_search(text):
 	if illustrator:
 		illustrator = illustrator.group('illustrator')
 	
-	dictionary = {'title': title, 'author': author, 'translator': translator, 'illustrator': illustrator}
+	dictionary = OrderedDict([('Title', title), ('Author', author), ('Translator', translator), ('Illustrator', illustrator)])
 	return dictionary
 	
 def keyword_counter(kws, text):
