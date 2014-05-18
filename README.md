@@ -1,6 +1,6 @@
 document_tagger
 ===============
-doc_tagger.py and doc_tagger_final.py have identical functionality: they search through the texts listed below and return metadata information (title, author, translator, and illustrator), as well as keyword counts for keywords supplied by the user at the command line. (The difference is that doc_tagger_final.py uses functions, while doc_tagger.py doesn't.)
+doc_tagger.py and doc_tagger_final.py have identical functionality: they search through the texts listed below and return metadata information (title, author, translator, and illustrator), as well as keyword counts for keywords supplied by the user at the command line.
 
 The 14 text files are the full texts of classic titles from Project Gutenberg:
 <ol>
