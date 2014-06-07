@@ -1,7 +1,10 @@
 import re
 import sys
 import os
+<<<<<<< HEAD
 from collections import OrderedDict
+=======
+>>>>>>> b0984a3db419bd4c02fa14ad64aedbc5366bee0e
 
 def file_opener(directory, fl):
 	"""Opens files and returns their full text."""
@@ -59,5 +62,9 @@ def main():
 
 if __name__ == '__main__':
 	main()
+<<<<<<< HEAD
 	
 """change change change"""
+=======
+
+>>>>>>> b0984a3db419bd4c02fa14ad64aedbc5366bee0e
