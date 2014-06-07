@@ -7,7 +7,6 @@ for kw in sys.argv[2:]:
 	searches[kw] = re.compile(r'\b' + kw + r'\b', re.IGNORECASE)
 	
 directory = sys.argv[1]
-documents = []
 for fl in os.listdir(directory):
 	if fl.endswith('txt'):
 		fl_path = os.path.join(directory, fl)
